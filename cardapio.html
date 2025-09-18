@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mar & Brisa</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        .tabela1 {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: "Inter", sans-serif;
+            font-size: 15px;
+            color: #0b3d59;
+        }
+
+        .tabela1 th,
+        .tabela1 td {
+            border: 1px solid #dce3e8;
+            padding: 12px 16px;
+            text-align: center;
+        }
+
+        .tabela1 thead {
+            background: #3fb3b0;
+            color: white;
+        }
+
+        .tabela1 tr:nth-child(even) {
+            background: #f9fafa;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .galeria img {
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <header style="border-radius: 0px;">
+        <img src="./img/logo.png" alt="Logomarca Mar & Brisa">
+        <h1>Mar & Brisa</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <table class="tabela1">
+        <thead>
+            <tr>
+                <td>Prato</td>
+                <td>Descrição</td>
+                <td>Preço</td>
+            </tr>
+        </thead>
+        <tr style="background: #3fb3b0; color: white;">
+            <td colspan="3" style="text-align: center;">Entradas</td>
+        </tr>
+        </thead>
+        <tr>
+            <td>Ceviche Tropical de Robalo</td>
+            <td>Robalo fresco marinado em limão siciliano, com manga, cebola roxa, coentro e crocante de batata-doce.
+            </td>
+            <td>R$58</td>
+        </tr>
+
+        <tr>
+            <td>Ostras Gratinadas ao Espumante</td>
+            <td>Meia dúzia de ostras frescas gratinadas com creme leve de espumante e parmesão maturado.</td>
+            <td>R$65</td>
+        </tr>
+
+        <tr>
+            <td>Camarão Crocante ao Coco</td>
+            <td>Camarões empanados em coco fresco, acompanhados de molho agridoce de maracujá.</td>
+            <td>R$52</td>
+
+        </tr>
+        <thead>
+            <tr>
+                <td colspan="3" style="text-align: center;">Pratos Principais</td>
+            </tr>
+        </thead>
+        <tr>
+            <td>Lagosta Brisa Do Mar</td>
+            <td>Lagosta grelhada na manteiga de ervas, servida com risoto de limão siciliano e aspargos frescos.</td>
+            <td>R$168</td>
+        </tr>
+
+        <tr>
+            <td>Polvo ao Carvão com Purê de Batata Trufado</td>
+            <td>Tentáculos de polvo macio e defumado, servidos com purê trufado e chips de alho crocante.</td>
+            <td>R$142</td>
+        </tr>
+
+        <tr>
+            <td>Peixe Branco em Crosta de Castanha-de-Caju</td>
+            <td>Filé de peixe do dia em crosta crocante de castanhas, com mousseline de abóbora e molho de maracujá.
+            </td>
+            <td>R$118</td>
+        </tr>
+
+        <tr>
+            <td>Moqueca Contemporânea de Camarão</td>
+            <td>Clássico da cozinha brasileira, reinterpretado com toque de leite de coco fresco, servido com arroz de
+                coco e farofa de dendê crocante.</td>
+            <td>R$128</td>
+        </tr>
+        <thead>
+            <tr>
+                <td colspan="3" style="text-align: center;">Massas & Risotos</td>
+            </tr>
+        </thead>
+        <tr>
+            <td>Risoto de Frutos do Mar</td>
+            <td>Arroz arbóreo cremoso com camarões, polvo e mexilhões, finalizado com azeite extravirgem.</td>
+            <td>R$136</td>
+        </tr>
+
+        <tr>
+            <td>Fettuccine Nero ao Mare</td>
+            <td>Massa artesanal negra (tinta de lula) com lula, camarão e molho de vinho branco com ervas.</td>
+            <td>R$124</td>
+        </tr>
+        <thead>
+            <tr>
+                <td colspan="3" style="text-align: center;">Sobremesas</td>
+            </tr>
+        </thead>
+
+
+        <tr>
+            <td>Cocada Bruleè</td>
+            <td>Cocada cremosa com crosta de açúcar caramelizado, acompanhada de sorvete de tapioca.</td>
+            <td>R$ 42</td>
+        </tr>
+
+        <tr>
+            <td>Mousse de Cupuaçu & Chocolate Belga</td>
+            <td>Equilíbrio perfeito entre a acidez do cupuaçu e a intensidade do chocolate 70%.</td>
+            <td>R$46</td>
+        </tr>
+
+        <tr>
+            <td>Tarte Tropical</td>
+            <td>Torta leve com creme de coco e frutas frescas tropicais da estação</td>
+            <td>R$44</td>
+        </tr>
+        <thead>
+            <tr>
+                <td colspan="3" style="text-align: center;">Bebidas</td>
+            </tr>
+
+        </thead>
+
+        <tr>
+            <td colspan="2" style="text-align: center;">Taça de Espumante Brut</td>
+            <td>R$34</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align: center;">Vinho Branco Sauvignon Blanc</td>
+            <td>Taça R$ 46 | Garrafa R$ 198</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="text-align: center;">Coquetel Brisa Tropical (rum, abacaxi e hortelã)</td>
+            <td>R$42</td>
+        </tr>
+
+
+    </table>
+<div class="text-block">
+    <p>Nosso cardápio é cuidadosamente elaborado para oferecer uma experiência gastronômica que celebra os sabores
+        frescos
+        e vibrantes do litoral, combinando ingredientes locais com técnicas culinárias contemporâneas. Cada prato é
+        pensado
+        para harmonizar perfeitamente com o ambiente praiano, proporcionando uma viagem sensorial que remete à brisa
+        do
+        mar e ao aconchego da areia sob os pés.</p>
+
+</div>
+
+<div class="text-block">
+     <h2>Sugestões do Chef</h2>
+    <ol>
+        <li>Fettuccine Nero ao Mare</li>
+        <li>Risoto de Frutos do Mar</li>
+        <li>Camarão Crocante ao Coco</li>
+        <li>Mousse de Cupuaçu & Chocolate Belga</li>
+    </ol>
+</div>
+   
+    <hr>
+   
+    <div class="galeria">
+
+        <img class="foto" style="width: 300px;" src="./img/camaraoaococo.jpg" alt="Camarão Crocante ao Coco">
+        <img class="foto" style="width: 300px;" src="./img/tartetropical.jpg" alt="Terte Tropical">
+        <img class="foto" style="width: 300px;" src="./img/fettuccinenero.jpg" alt="Fettuccine Nero ao Mare">
+
+    </div>
+
+    <hr>
+
+    <footer>
+        <img src="./img/logo.png" alt="Logo do Restaurante" class="footer-logo">
+        <div class="redes-sociais">
+            <a href="https://www.instagram.com/marebrisahospedagem/" target="_blank">
+                <img src="./img/instagram-icone.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://web.facebook.com/pousadamarebrisanatal" target="_blank">
+                <img src="./img/facebook-icone.png" alt="Facebook" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
